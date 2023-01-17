@@ -1,0 +1,130 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+.container {
+    background: rgb(230,201,53);
+    background: linear-gradient(90deg, rgba(230,201,53,1) 0%, rgba(159,207,43,1) 18%, rgba(242,179,66,1) 58%, rgba(252,176,69,1) 100%);
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 5px 5px black;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.poto {
+    width: 100px;
+    margin-top: -40px;
+   
+}
+
+.text-login {
+    text-align: center;
+    margin: 20px;
+    font-size: 40px;
+    font-style: italic;
+    
+    
+}
+
+.input {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+}
+
+.username {
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.input-pw {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.password {
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt-login {
+    background-color: #8dfcf9;
+    width: 250px;
+    height: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.text-footer {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+}
+
+.a-footer {
+    color: black;
+    text-decoration: none;
+}
+
+.a-footer:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.daftar {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.a-daftar {
+    text-decoration: none;
+}
+
+.a-daftar:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
